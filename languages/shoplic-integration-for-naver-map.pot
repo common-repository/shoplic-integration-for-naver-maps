@@ -1,0 +1,677 @@
+# Copyright (C) 2024 Shoplic
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Shoplic Integration for Naver Map 1.0.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/shoplic-integration-for-naver-map\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-31T06:22:41+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: shoplic-integration-for-naver-map\n"
+
+#. Plugin Name of the plugin
+#: shoplic-integration-for-naver-map.php
+msgid "Shoplic Integration for Naver Map"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: shoplic-integration-for-naver-map.php
+msgid "https://shoplic.kr"
+msgstr ""
+
+#. Description of the plugin
+#: shoplic-integration-for-naver-map.php
+msgid "A map plugin for WordPress integrating Naver Maps with WordPress, powered by Shoplic. Register many places you want and display them on your Naver maps."
+msgstr ""
+
+#. Author of the plugin
+#: shoplic-integration-for-naver-map.php
+msgid "Shoplic"
+msgstr ""
+
+#: includes/Modules/AdminListTableFields.php:26
+msgid "Address/Telephone"
+msgstr ""
+
+#: includes/Modules/AdminListTableFields.php:27
+#: dist/assets/edit-location-96daea1a.js:1
+msgid "URL"
+msgstr ""
+
+#: includes/Modules/AdminListTableFields.php:28
+#: includes/Modules/AdminListTableFields.php:38
+msgid "Shortcode"
+msgstr ""
+
+#: includes/Modules/AdminListTableFields.php:37
+msgid "Number of Locations"
+msgstr ""
+
+#: includes/Modules/AdminListTableFields.php:61
+msgid "Confirm"
+msgstr ""
+
+#. Translators: number of places.
+#: includes/Modules/AdminListTableFields.php:80
+msgid "%d place"
+msgid_plural "%d places"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/Modules/AdminSettings.php:21
+msgctxt "Options page title"
+msgid "Naver Map Settings"
+msgstr ""
+
+#: includes/Modules/AdminSettings.php:22
+msgctxt "Options menu title"
+msgid "Settings"
+msgstr ""
+
+#: includes/Modules/AdminSettings.php:67
+msgid "General"
+msgstr ""
+
+#: includes/Modules/AdminSettings.php:75
+msgid "Client ID"
+msgstr ""
+
+#. Translators: 링크 주소.
+#: includes/Modules/AdminSettings.php:89
+msgid "You can get it from <a href=\"%1$s\" target=\"_blank\" rel=\"noreferrer\">Naver Cloud console</a>. <a href=\"%2$s\" target=\"_blank\" rel=\"noreferrer\">Instructions</a>, <a href=\"%3$s\" target=\"_blank\" rel=\"noreferrer\">Video</a>"
+msgstr ""
+
+#: includes/Modules/AdminSettings.php:104
+msgid "Development Mode"
+msgstr ""
+
+#: includes/Modules/AdminSettings.php:116
+msgid "Running in development mode!"
+msgstr ""
+
+#: includes/Modules/CustomFields.php:74
+msgctxt "Description for meta field"
+msgid "Location address field."
+msgstr ""
+
+#: includes/Modules/CustomFields.php:91
+msgctxt "Description for meta field"
+msgid "Location alt title."
+msgstr ""
+
+#: includes/Modules/CustomFields.php:111
+msgctxt "Description for meta field"
+msgid "Location coordinate field."
+msgstr ""
+
+#: includes/Modules/CustomFields.php:128
+msgctxt "Description for meta field"
+msgid "Location telephone field."
+msgstr ""
+
+#: includes/Modules/CustomFields.php:145
+msgctxt "Description for meta field"
+msgid "Location URL field."
+msgstr ""
+
+#: includes/Modules/CustomFields.php:165
+msgctxt "Description for meta field"
+msgid "Location list of post IDs."
+msgstr ""
+
+#: includes/Modules/CustomFields.php:185
+msgctxt "Description for meta field"
+msgid "Reference of map or coordination."
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:19
+#: includes/Modules/CustomPosts.php:61
+msgctxt "CPT Label"
+msgid "Locations"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:21
+msgctxt "CPT Label"
+msgid "Location"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:23
+#: includes/Modules/CustomPosts.php:116
+msgctxt "CPT Label"
+msgid "Add New"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:25
+msgctxt "CPT Label"
+msgid "Add New Location"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:27
+msgctxt "CPT Label"
+msgid "Edit Location"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:29
+msgctxt "CPT Label"
+msgid "New Location"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:31
+msgctxt "CPT Label"
+msgid "View Location"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:33
+msgctxt "CPT Label"
+msgid "View Locations"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:35
+msgctxt "CPT Label"
+msgid "Search Locations"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:37
+msgctxt "CPT Label"
+msgid "No locations found"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:39
+msgctxt "CPT Label"
+msgid "o locations found in Trash"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:41
+msgctxt "CPT Label"
+msgid "Parent Location:"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:43
+msgctxt "CPT Label"
+msgid "All Locations"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:45
+msgctxt "CPT Label"
+msgid "Location Archives"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:47
+msgctxt "CPT Label"
+msgid "Location Attributes"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:49
+msgctxt "CPT Label"
+msgid "Insert into location"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:51
+msgctxt "CPT Label"
+msgid "Uploaded to this location"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:53
+#: includes/Modules/CustomPosts.php:146
+msgctxt "CPT Label"
+msgid "Featured image"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:55
+#: includes/Modules/CustomPosts.php:148
+msgctxt "CPT Label"
+msgid "Set featured image"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:57
+#: includes/Modules/CustomPosts.php:150
+msgctxt "CPT Label"
+msgid "Remove featured image"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:59
+#: includes/Modules/CustomPosts.php:152
+msgctxt "CPT Label"
+msgid "Use as featured image"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:63
+#: includes/Modules/CustomPosts.php:156
+msgctxt "CPT Label"
+msgid "Filter pages list’"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:65
+#: includes/Modules/CustomPosts.php:158
+msgctxt "CPT Label"
+msgid "Filter by date"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:67
+msgctxt "CPT Label"
+msgid "Locations list navigation"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:69
+msgctxt "CPT Label"
+msgid "Locations list"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:71
+msgctxt "CPT Label"
+msgid "Location published."
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:73
+msgctxt "CPT Label"
+msgid "Location published privately."
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:75
+msgctxt "CPT Label"
+msgid "Location reverted to draft."
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:77
+msgctxt "CPT Label"
+msgid "Location trashed."
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:79
+#: includes/Modules/CustomPosts.php:81
+msgctxt "CPT Label"
+msgid "Location scheduled."
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:83
+msgctxt "CPT Label"
+msgid "Location Link"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:85
+msgctxt "CPT Label"
+msgid "A link to a location"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:88
+msgid "Location custom post type"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:112
+#: includes/Modules/CustomPosts.php:154
+msgctxt "CPT Label"
+msgid "Maps"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:114
+msgctxt "CPT Label"
+msgid "Map"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:118
+msgctxt "CPT Label"
+msgid "Add New Map"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:120
+msgctxt "CPT Label"
+msgid "Edit Map"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:122
+msgctxt "CPT Label"
+msgid "New Map"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:124
+msgctxt "CPT Label"
+msgid "View Map"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:126
+msgctxt "CPT Label"
+msgid "View Maps"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:128
+msgctxt "CPT Label"
+msgid "Search Maps"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:130
+msgctxt "CPT Label"
+msgid "No maps found"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:132
+msgctxt "CPT Label"
+msgid "o maps found in Trash"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:134
+msgctxt "CPT Label"
+msgid "Parent Map:"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:136
+msgctxt "CPT Label"
+msgid "All Maps"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:138
+msgctxt "CPT Label"
+msgid "Map Archives"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:140
+msgctxt "CPT Label"
+msgid "Map Attributes"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:142
+msgctxt "CPT Label"
+msgid "Insert into map"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:144
+msgctxt "CPT Label"
+msgid "Uploaded to this map"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:160
+msgctxt "CPT Label"
+msgid "Maps list navigation"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:162
+msgctxt "CPT Label"
+msgid "Maps list"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:164
+msgctxt "CPT Label"
+msgid "Map published."
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:166
+msgctxt "CPT Label"
+msgid "Map published privately."
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:168
+msgctxt "CPT Label"
+msgid "Map reverted to draft."
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:170
+msgctxt "CPT Label"
+msgid "Map trashed."
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:172
+#: includes/Modules/CustomPosts.php:174
+msgctxt "CPT Label"
+msgid "Map scheduled."
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:176
+msgctxt "CPT Label"
+msgid "Map Link"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:178
+msgctxt "CPT Label"
+msgid "A link to a map"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:181
+msgid "Map custom post type"
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:269
+#: includes/Modules/CustomPosts.php:270
+msgctxt "Administration update message"
+msgid "%s updated."
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:271
+msgctxt "Administration update message"
+msgid "%s published."
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:272
+msgctxt "Administration update message"
+msgid "%s saved."
+msgstr ""
+
+#: includes/Modules/CustomPosts.php:273
+msgctxt "Administration update message"
+msgid "%s submitted."
+msgstr ""
+
+#: includes/Modules/CustomTaxonomies.php:16
+msgctxt "Custom taxonomy"
+msgid "Categories"
+msgstr ""
+
+#: includes/Modules/CustomTaxonomies.php:18
+msgctxt "Custom taxonomy"
+msgid "Category"
+msgstr ""
+
+#: includes/Modules/CustomTaxonomies.php:20
+msgctxt "Custom taxonomy"
+msgid "Search Categories"
+msgstr ""
+
+#: includes/Modules/CustomTaxonomies.php:22
+msgctxt "Custom taxonomy"
+msgid "Popular categories"
+msgstr ""
+
+#: includes/Modules/CustomTaxonomies.php:24
+msgctxt "Custom taxonomy"
+msgid "All Categories"
+msgstr ""
+
+#: includes/Modules/CustomTaxonomies.php:26
+msgctxt "Custom taxonomy"
+msgid "Parent Category"
+msgstr ""
+
+#: includes/Modules/CustomTaxonomies.php:28
+msgctxt "Custom taxonomy"
+msgid "Parent Category:"
+msgstr ""
+
+#: includes/Modules/CustomTaxonomies.php:30
+msgctxt "Custom taxonomy"
+msgid "Edit Category"
+msgstr ""
+
+#: includes/Modules/CustomTaxonomies.php:32
+msgctxt "Custom taxonomy"
+msgid "View Category"
+msgstr ""
+
+#: includes/Modules/CustomTaxonomies.php:34
+msgctxt "Custom taxonomy"
+msgid "Update Category"
+msgstr ""
+
+#: includes/Modules/CustomTaxonomies.php:36
+msgctxt "Custom taxonomy"
+msgid "Add New Category"
+msgstr ""
+
+#: includes/Modules/CustomTaxonomies.php:38
+msgctxt "Custom taxonomy"
+msgid "New Category Name"
+msgstr ""
+
+#: includes/Modules/CustomTaxonomies.php:40
+msgctxt "Custom taxonomy"
+msgid "Add or remove tags"
+msgstr ""
+
+#: includes/Modules/CustomTaxonomies.php:42
+msgctxt "Custom taxonomy"
+msgid "Choose from the most used tags"
+msgstr ""
+
+#: includes/Modules/CustomTaxonomies.php:44
+msgctxt "Custom taxonomy"
+msgid "No categories found"
+msgstr ""
+
+#: includes/Modules/CustomTaxonomies.php:46
+msgctxt "Custom taxonomy"
+msgid "No categories"
+msgstr ""
+
+#: includes/Modules/CustomTaxonomies.php:48
+msgctxt "Custom taxonomy"
+msgid "Filter by category"
+msgstr ""
+
+#: includes/Modules/CustomTaxonomies.php:50
+msgctxt "Custom taxonomy"
+msgid "Categories List Navigation"
+msgstr ""
+
+#: includes/Modules/CustomTaxonomies.php:52
+msgctxt "Custom taxonomy"
+msgid "Categories List"
+msgstr ""
+
+#: includes/Modules/CustomTaxonomies.php:54
+msgctxt "Custom taxonomy"
+msgid "Most Used"
+msgstr ""
+
+#: includes/Modules/CustomTaxonomies.php:56
+msgctxt "Custom taxonomy"
+msgid "Back to categories"
+msgstr ""
+
+#: includes/Modules/CustomTaxonomies.php:58
+msgctxt "Custom taxonomy"
+msgid "Category Link"
+msgstr ""
+
+#: includes/Modules/CustomTaxonomies.php:60
+msgctxt "Custom taxonomy"
+msgid "A link to a category"
+msgstr ""
+
+#: includes/Modules/CustomTaxonomies.php:63
+msgctxt "Custom taxonomy"
+msgid "Taxonomy for locations and maps custom post type."
+msgstr ""
+
+#: includes/Modules/Edit.php:37
+msgid "Naver map, location reference"
+msgstr ""
+
+#: includes/Modules/Settings.php:48
+msgctxt "Settings description"
+msgid "Naver Map settings"
+msgstr ""
+
+#: includes/Modules/Shortcodes.php:28
+msgid "Cannot load map data"
+msgstr ""
+
+#: includes/templates/admin-settings.tmpl.php:43
+msgid "Horizontal banner"
+msgstr ""
+
+#: includes/templates/admin-settings.tmpl.php:50
+msgid "Vertical banner"
+msgstr ""
+
+#: includes/templates/component-root.tmpl.php:32
+msgid "You need a browser that can run JavaScript."
+msgstr ""
+
+#: includes/templates/component-root.tmpl.php:35
+msgid "Running in development mode. Maybe you have forgotten to execute <code style=\"background-color: #e0e0ee; border-radius: 4px; padding: 4px 8px;\">yarn run dev</code>?"
+msgstr ""
+
+#: dist/assets/edit-location-96daea1a.js:1
+msgid "Map"
+msgstr ""
+
+#: dist/assets/edit-location-96daea1a.js:1
+msgid "Latitude"
+msgstr ""
+
+#: dist/assets/edit-location-96daea1a.js:1
+msgid "Longitude"
+msgstr ""
+
+#: dist/assets/edit-location-96daea1a.js:1
+msgid "The address is entered. Overwrite?"
+msgstr ""
+
+#: dist/assets/edit-location-96daea1a.js:1
+msgid "Enter an address for this location"
+msgstr ""
+
+#: dist/assets/edit-location-96daea1a.js:1
+msgid "Address"
+msgstr ""
+
+#: dist/assets/edit-location-96daea1a.js:1
+msgid "Do you want to search address again?"
+msgstr ""
+
+#: dist/assets/edit-location-96daea1a.js:1
+msgid "Failed to search address."
+msgstr ""
+
+#: dist/assets/edit-location-96daea1a.js:1
+msgid "You may need to enter a detailed address yourself."
+msgstr ""
+
+#: dist/assets/edit-location-96daea1a.js:1
+msgid "Telephone"
+msgstr ""
+
+#: dist/assets/edit-location-96daea1a.js:1
+msgid "Phone number at this location."
+msgstr ""
+
+#: dist/assets/edit-location-96daea1a.js:1
+msgid "URL related to this location."
+msgstr ""
+
+#: dist/assets/edit-location-96daea1a.js:1
+msgid "Alternative Title"
+msgstr ""
+
+#: dist/assets/edit-location-96daea1a.js:1
+msgid "The title you want to use. Leave blank to use the post title."
+msgstr ""
+
+#: dist/assets/edit-map-75c77260.js:1
+msgid "Exclude"
+msgstr ""
+
+#: dist/assets/edit-map-75c77260.js:1
+msgid "Include"
+msgstr ""
+
+#: dist/assets/edit-map-75c77260.js:1
+msgid "Available locations"
+msgstr ""
+
+#: dist/assets/edit-map-75c77260.js:1
+msgid "Selected location"
+msgstr ""

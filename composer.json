@@ -1,0 +1,34 @@
+{
+  "name": "shoplic/integration-for-naver-map",
+  "type": "wordpress-plugin",
+  "minimum-stability": "stable",
+  "scripts": {
+    "daa": "@composer dump-autoload --classmap-authoritative --no-dev",
+    "make-pot": "@php -dxdebug.mode=off $(which wp) i18n make-pot . ./languages/shoplic-integration-for-naver-map.pot --exclude=node_modules --domain=shoplic-integration-for-naver-map",
+    "make-json": "@php -dxdebug.mode=off $(which wp) i18n make-json ./languages --no-purge",
+    "build": [
+      "$(which yarn) build",
+      "@composer daa",
+      "@composer make-pot",
+      "@composer make-json",
+      "@php build.php ../../shoplic-integration-for-naver-map.build -f"
+    ]
+  },
+  "scripts-descriptions": {
+    "daa": "Run `composer dump-autoload --classmap-authoritative --no-dev`.",
+    "make-pot": "Create ./languages-naver-maps.pot file. WP-CLI is required.",
+    "make-json": "Create JSON language files. WP-CLI is required.",
+    "build": "Create distributable version."
+  },
+  "autoload": {
+    "files": [
+      "includes/Functions.php"
+    ],
+    "psr-4": {
+      "Shoplic\\NaverMap\\": "includes/"
+    }
+  },
+  "require": {
+    "php": ">=7.2"
+  }
+}

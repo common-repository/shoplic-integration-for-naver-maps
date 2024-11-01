@@ -1,0 +1,25 @@
+.address-wrap {
+	display: flex;
+	align-items: baseline;
+}
+
+.naver-maps {
+	border: 1px solid #8c8f94;
+	height: 400px;
+
+	& > div {
+		width: 100% !important;
+		height: 100% !important;
+	}
+}
+
+#coord-info {
+	font-size: 0.65rem;
+	margin: 0;
+	text-align: right;
+}
+
+#nm-location-address {
+	flex-grow: 1;
+	margin-right: 0.5rem;
+}

@@ -1,0 +1,97 @@
+#edit-map-wrap {
+	--inner-border-color: #c0c0c0;
+	--inner-button-color: #1d2327;
+	--label-background-color: #e5e5e5;
+	--outer-border-color: #8c8f94;
+	--selected-color: #9dc6ff;
+
+	& > .naver-maps {
+		margin-top: 24px;
+		border: 1px solid var(--outer-border-color);
+		height: 400px;
+
+		& > div {
+			width: 100% !important;
+			height: 100% !important;
+		}
+	}
+
+	& > .location-selector-wrap {
+		display: flex;
+		justify-content: center;
+		margin-top: 12px;
+
+		& .locations-list-wrap {
+			border: 1px solid var(--outer-border-color);
+			border-radius: 4px;
+			display: block;
+			flex-grow: 1;
+			flex-shrink: 1;
+			max-width: calc((100% - 65px) * 0.5);
+
+			& > .label {
+				background-color: var(--label-background-color);
+				display: block;
+				font-size: 13px;
+				font-weight: 500;
+				margin: 0;
+				padding: 8px 12px;
+				text-align: left;
+
+				&::after {
+					content: ':';
+				}
+			}
+
+			& > .locations-list {
+				border-bottom: none;
+				border-left: none;
+				border-radius: 0;
+				border-right: none;
+				border-top: 1px solid var(--inner-border-color);
+				box-shadow: none;
+				display: block;
+				height: 150px;
+				margin: 0;
+				max-width: unset;
+				outline: none;
+				overflow-y: scroll;
+				padding: 0;
+				width: 100%;
+
+				& > option {
+					outline: none;
+					padding: 6px 12px;
+				}
+
+				&:hover {
+					color: inherit;
+				}
+			}
+		}
+
+		& .control-buttons {
+			display: inline-flex;
+			flex-direction: column;
+			justify-content: center;
+			padding: 0 10px;
+			flex-grow: 0;
+			flex-shrink: 0;
+
+			& button {
+				color: var(--inner-button-color);
+				display: block;
+				margin: 8px;
+			}
+		}
+	}
+
+	& p.description {
+		margin-top: 12px;
+	}
+
+	& kbd {
+		border: 1px solid var(--inner-border-color);
+		border-radius: 4px;
+	}
+}
